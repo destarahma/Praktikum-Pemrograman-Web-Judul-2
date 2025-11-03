@@ -28,3 +28,46 @@ header a {
   color: white;
   text-decoration: none;
 }
+
+.container {
+  text-align: center;
+  padding: 40px 20px;
+}
+
+.foto-profil {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 15px;
+}
+
+.grid-proyek {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+.card {
+  background-color: white;
+  padding: 15px;
+  width: 250px;
+  border-radius: 10px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.card a {
+  display: inline-block;
+  margin-top: 10px;
+  color: #2b2d42;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+footer {
+  background-color: #2b2d42;
+  color: white;
+  text-align: center;
+  padding: 10px;
+}
